@@ -1,0 +1,25 @@
+.category-list {
+  ul {
+    padding-left: 10px;
+
+    &:first-child {
+      display: block !important;
+    }
+
+    li {
+      list-style: none;
+
+      h5 {
+        cursor: pointer;
+        padding: 5px 10px;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        margin: 1px 0;
+
+        .glyphicon {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
